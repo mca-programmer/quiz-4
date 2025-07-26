@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="quiz-box">
+      <div class="top-bar">
+        <h1 class="title">🧠 Advanced Quiz</h1>
+        <select id="difficulty" onchange="setDifficulty()">
+          <option value="easy">Easy</option>
+          <option value="medium" selected>Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
+      <div class="quiz-content">
+        <div id="timer">⏱️ 10s</div>
+        <div id="imageContainer"></div>
+        <div id="question" class="question">Question</div>
+        <div id="options" class="options"></div>
+        <button onclick="nextQuestion()" id="nextBtn">Next</button>
+        <div id="result" class="result"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
