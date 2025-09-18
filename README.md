@@ -1,4 +1,4 @@
-# Quiz-6
+# Quiz-4
 
 Simple quiz app using HTML, CSS, and JavaScript.
 ## live: https://mca-programmer.github.io/quiz-4/
